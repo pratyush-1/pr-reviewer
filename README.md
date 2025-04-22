@@ -1,6 +1,6 @@
 **PROJECT OVERVIEW**
 
-AI bot that reviews GitHub PRs using Ollama. Checks code safety and auto-merges clean changes.
+AI bot that reviews GitHub PRs using LLM, checks the code for its quality/errors and auto-merges clean changes.
 
 Download Ollama from [here](https://ollama.com/download/windows)
 
