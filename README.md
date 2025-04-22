@@ -1,19 +1,21 @@
 **PROJECT OVERVIEW**
 AI bot that reviews GitHub PRs using Ollama. Checks code safety and auto-merges clean changes.
 
-Download Ollama from [here](!https://ollama.com/download/windows)
+Download Ollama from [here](https://ollama.com/download/windows)
 
 The project is structured as follows- 
 
 ```
 pr-reviewer/
 ├── app/
-│   ├── main.py          
-│   ├── github_webhook.py 
-│   ├── llm_langchain.py  
-│   └── utils.py          
-├── .env                
-└── requirements.txt     
+│   ├── __init__.py
+│   ├── main.py           
+│   ├── github_webhook.py   
+│   ├── langchain_chain.py   
+│   ├── utils.py             
+├── .env                   
+├── requirements.txt         
+├── README.md  
 ```
 ## Setup
 1. **Clone the repository**:
